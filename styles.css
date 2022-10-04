@@ -100,17 +100,18 @@ html {
 }
 
 #colorDisplay {
-font-size: 15px;
+font-size: 12px;
 }
 
 #widthDisplay {
-font-size: 15px;
+font-size: 12px;
 }
 
 #heightDisplay {
-font-size: 15px;
+font-size: 12px;
 }
 
 .top-left-box p {
     margin: auto;
 }
+
