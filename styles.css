@@ -27,7 +27,7 @@ html {
   }
 
   .top-left-box {
-  
+    
     border: 1px solid black;
     padding: 1em;
     font-size: 20px;
@@ -97,4 +97,20 @@ html {
     border: 1px solid black;
 
   
+}
+
+#colorDisplay {
+font-size: 15px;
+}
+
+#widthDisplay {
+font-size: 15px;
+}
+
+#heightDisplay {
+font-size: 15px;
+}
+
+.top-left-box p {
+    margin: auto;
 }
