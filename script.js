@@ -9,6 +9,9 @@ const colorDisplay = document.getElementById("colorDisplay");
 
 const colorAdjust = document.getElementById("colorAdjust");
 
+
+console.log (heightDisplay)
+
 widthInput.value = 50;
 widthDisplay.innerHTML = "100px";
 
