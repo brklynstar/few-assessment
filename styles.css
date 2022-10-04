@@ -1,0 +1,94 @@
+
+
+.box {
+    padding: 1rem;
+
+  }
+
+  .container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    justify-content: center;
+    grid-gap: 1em;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    grid-template-areas:
+    " l  t"
+    " b  r";
+  
+  }
+
+  .top-left-box {
+  
+    border: 1px solid black;
+    padding: 1em;
+    font-size: 20px;
+    text-align: flex-start;
+  
+    display: flex;
+  
+    grid-area: l;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  
+  }
+  
+  
+  .bottom-left-box {
+  
+    border: 1px solid black;
+    padding: 1em;
+    font-size: 20px;
+    text-align: center;
+  
+    display: flex;
+  
+    grid-area: b;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  
+  
+  }
+  
+  
+  .top-right-box {
+  
+    border: 1px solid black;
+    padding: 1em;
+    font-size: 20px;
+    text-align: center;
+    grid-area: t;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    align-items: flex-start;
+  
+  }
+  
+
+  
+  .bottom-right-box {
+  
+    border: 1px solid black;
+    padding: 1em;
+    font-size: 15px;
+    text-align: center;
+    grid-area: r;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+  }
+
+  #colorAdjust {
+    border: 1px solid black;
+
+  
+}
